@@ -15,5 +15,38 @@
         "isActive" : true
       }
     }
-  }
+  },
+  "reasons": [
+    {
+      "page": 1,
+      "id": 1,
+      "dataPerPage": 3,
+      "totalData": 7,
+      "totalPage": 3,
+      "success": true,
+      "payload": {
+        "n2po31e": {
+          "reasonId": "n2po31e",
+          "type": "Extrashoot",
+          "reason": "Gula",
+          "staff": "Ikhsan",
+          "created_dt": "2020-08-13 19:00:00",
+        },
+        "bnv231e": {
+          "reasonId": "bnv231e",
+          "type": "Extrashoot",
+          "reason": "Kopi",
+          "staff": "Jihan",
+          "created_dt": "2020-08-13 19:00:00",
+        },
+        "vdfobfw": {
+          "reasonId": "vdfobfw",
+          "type": "Extrashoot",
+          "reason": "Teh",
+          "staff": "Andrew",
+          "created_dt": "2020-08-13 19:00:00",
+        }
+      }
+    }
+  ]
 }
