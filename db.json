@@ -1,10 +1,5 @@
 {
   "app-settings": {
-    "page": 1,
-    "id": 1,
-    "dataPerPage": 3,
-    "totalData": 7,
-    "totalPage": 3,
     "success": true,
     "payload": {
       "avsawdw" : {
