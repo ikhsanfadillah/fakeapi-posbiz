@@ -1,7 +1,7 @@
 {
   "app-settings": [
     {
-      data:[
+      "data":[
         {
           "appSettingId": 1,
           "title": "Setting 1",
@@ -10,7 +10,7 @@
         },
         {
           "appSettingId": 1,
-          "title": "Setting 2"
+          "title": "Setting 2",
           "description":"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident",
           "isActive" : true
         }
