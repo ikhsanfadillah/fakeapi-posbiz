@@ -1,16 +1,26 @@
 {
   "app-settings": [
     {
-      "appSettingId": 1,
-      "title": "Setting 1",
-      "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "isActive" : false
-    },
-    {
-      "appSettingId": 1,
-      "title": "Setting 2",
-      "description":"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident",
-      "isActive" : true
+      "page": 1,
+      "id": 1,
+      "dataPerPage": 3,
+      "totalData": 7,
+      "totalPage": 3,
+      "success": true,
+      "payload": {
+        "avsawdw" : {
+          "appSettingId": "avsawdw",
+          "title": "Setting 1",
+          "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "isActive" : false
+        },
+        "dhgewd2" : {
+          "appSettingId": "dhgewd2",
+          "title": "Setting 2",
+          "description":"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident",
+          "isActive" : true
+        }
+      }
     }
   ]
 }
