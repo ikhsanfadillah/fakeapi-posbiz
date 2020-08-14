@@ -30,21 +30,21 @@
           "type": "Extrashoot",
           "reason": "Gula",
           "staff": "Ikhsan",
-          "created_dt": "2020-08-13 19:00:00",
+          "created_dt": "2020-08-13 19:00:00"
         },
         "bnv231e": {
           "reasonId": "bnv231e",
           "type": "Extrashoot",
           "reason": "Kopi",
           "staff": "Jihan",
-          "created_dt": "2020-08-13 19:00:00",
+          "created_dt": "2020-08-13 19:00:00"
         },
         "vdfobfw": {
           "reasonId": "vdfobfw",
           "type": "Extrashoot",
           "reason": "Teh",
           "staff": "Andrew",
-          "created_dt": "2020-08-13 19:00:00",
+          "created_dt": "2020-08-13 19:00:00"
         }
       }
     }
