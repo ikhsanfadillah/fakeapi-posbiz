@@ -48,5 +48,32 @@
         }
       }
     }
+  ],
+  "print-groups": [
+    {
+      "page": 1,
+      "id": 1,
+      "dataPerPage": 3,
+      "totalData": 7,
+      "totalPage": 3,
+      "success": true,
+      "payload": {
+        "n2po31e": {
+          "printGroupId": "n2po31e",
+          "groupName": "Ikhsan",
+          "created_dt": "2020-08-13 19:00:00"
+        },
+        "bnv231e": {
+          "printGroupId": "bnv231e",
+          "groupName": "Jihan",
+          "created_dt": "2020-08-13 19:00:00"
+        },
+        "vdfobfw": {
+          "printGroupId": "vdfobfw",
+          "groupName": "Andrew",
+          "created_dt": "2020-08-13 19:00:00"
+        }
+      }
+    }
   ]
 }
