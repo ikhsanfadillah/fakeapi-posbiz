@@ -21,11 +21,11 @@
     "payload": {
       "avsawdw" : {
         "posMenuId": "avsawdw",
-        "name": "POS Menu 1",
+        "name": "POS Menu 1"
       },
       "dhgewd2" : {
         "posMenuId": "dhgewd2",
-        "name": "POS Menu 2",
+        "name": "POS Menu 2"
       }
     }
   },
