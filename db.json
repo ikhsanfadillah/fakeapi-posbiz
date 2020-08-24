@@ -21,12 +21,12 @@
     "payload": {
       "sections": {
         "sectionBurger": {
-          "sectionID": "sectionBurger",
+          "sectionId": "sectionBurger",
           "rowIdx": 2,
           "type": "group"
         },
         "sectionDrink": {
-          "sectionID": "sectionDrink",
+          "sectionId": "sectionDrink",
           "lastRowIdx": 1,
           "type": "product"
         }
