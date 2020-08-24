@@ -16,6 +16,15 @@
       }
     }
   },
+  "pos-menu": {
+    "avsawdw" : {
+      "success": true,
+      "payload": {
+        "posMenuId": "avsawdw",
+        "name": "POS Menu 1"
+      }
+    }
+  },
   "pos-menus": {
     "success": true,
     "payload": {
