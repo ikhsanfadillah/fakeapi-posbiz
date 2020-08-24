@@ -19,51 +19,51 @@
   "pos-menu": {
     "success": true,
     "payload": {
-      sections : {
-          "sectionBurger" : {
-              sectionID : "sectionBurger",
-              rowIdx : 2,
-              type: "group"
-          },
-          "sectionDrink" : {
-              sectionID : "sectionDrink",
-              lastRowIdx : 1,
-              type: "product"
-           }
+      "sections": {
+        "sectionBurger": {
+          "sectionID": "sectionBurger",
+          "rowIdx": 2,
+          "type": "group"
+        },
+        "sectionDrink": {
+          "sectionID": "sectionDrink",
+          "lastRowIdx": 1,
+          "type": "product"
+        }
       },
-      items : {
-          item1 : {
-              itemId : "item1",
-              sectionId : "sectionDrink",
-              parent : null,
-              row : 1,
-              column : 1,
-              rowIdx : 1
-          },
-          item2 : {
-              itemId : "item2",
-              sectionId : "sectionDrink",
-              parent: null,
-              row : 2,
-              column : 3,
-              rowIdx : 1
-          },
-          item11 : {
-              itemId : "item11",
-              sectionId : "sectionDrink",
-              parent: "item1",
-              row : 1,
-              column : 3,
-              rowIdx : 1
-          },
-          item12 : {
-              itemId : "item12",
-              sectionId : "sectionDrink",
-              parent: "item1",
-              row : 2,
-              column : 3,
-              rowIdx : 1
-          }
+      "items": {
+        "item1": {
+          "itemId": "item1",
+          "sectionId": "sectionDrink",
+          "parent": null,
+          "row": 1,
+          "column": 1,
+          "rowIdx": 1
+        },
+        "item2": {
+          "itemId": "item2",
+          "sectionId": "sectionDrink",
+          "parent": null,
+          "row": 2,
+          "column": 3,
+          "rowIdx": 1
+        },
+        "item11": {
+          "itemId": "item11",
+          "sectionId": "sectionDrink",
+          "parent": "item1",
+          "row": 1,
+          "column": 3,
+          "rowIdx": 1
+        },
+        "item12": {
+          "itemId": "item12",
+          "sectionId": "sectionDrink",
+          "parent": "item1",
+          "row": 2,
+          "column": 3,
+          "rowIdx": 1
+        }
       }
     }
   },
