@@ -22,16 +22,26 @@
       "sections": {
         "sectionBurger": {
           "sectionId": "sectionBurger",
-          "rowIdx": 2,
+          "rowIndexes" : [1],
+          "rowIdxInc": 2,
           "type": "group"
         },
         "sectionDrink": {
           "sectionId": "sectionDrink",
-          "lastRowIdx": 1,
+          "rowIndexes" : [1,2],
+          "rowIdxInc": 3,
           "type": "product"
         }
       },
       "items": {
+        "itemBurger1": {
+          "itemId": "itemBurger1",
+          "sectionId": "sectionBurger",
+          "parent": null,
+          "row": 1,
+          "column": 1,
+          "rowIdx": 1
+        },
         "item1": {
           "itemId": "item1",
           "sectionId": "sectionDrink",
