@@ -1,152 +1,170 @@
 {
-	"app-settings": {
-		"success": true,
-		"payload": {
-			"avsawdw": {
-				"appSettingId": "avsawdw",
-				"title": "Setting 1",
-				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-				"isActive": false
-			},
-			"dhgewd2": {
-				"appSettingId": "dhgewd2",
-				"title": "Setting 2",
-				"description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident",
-				"isActive": true
-			}
-		}
-	},
-	"pos-menu": {
-		"success": true,
-		"payload": {
-			"sections": [{
-					"posMenuSectionId": "sectionBurger",
-					"listRowIndex": [1],
-					"lastRowIndex": 2,
-					"type": "group"
-				},
-				{
-					"posMenuSectionId": "sectionDrink",
-					"listRowIndex": [1, 2],
-					"lastRowIndex": 3,
-					"type": "product"
-				}
-			],
-			"items": [{
-					"posMenuItemId": "itemBurger1",
-					"posMenuSectionId": "sectionBurger",
-					"parent": null,
-					"rowNo": 1,
-					"colNo": 1,
-					"lastRowIndex": 1,
-					"listRowIndex": []
-				},
-				{
-					"posMenuItemId": "item1",
-					"posMenuSectionId": "sectionDrink",
-					"parent": null,
-					"rowNo": 1,
-					"colNo": 1,
-					"lastRowIndex": 2,
-					"listRowIndex": []
-				},
-				{
-					"posMenuItemId": "item2",
-					"posMenuSectionId": "sectionDrink",
-					"parent": null,
-					"rowNo": 2,
-					"colNo": 3,
-					"lastRowIndex": 1,
-					"listRowIndex": []
-				},
-				{
-					"posMenuItemId": "item11",
-					"posMenuSectionId": "sectionDrink",
-					"parent": "item1",
-					"rowNo": 1,
-					"colNo": 3,
-					"lastRowIndex": 1,
-					"listRowIndex": []
-				},
-				{
-					"posMenuItemId": "item12",
-					"posMenuSectionId": "sectionDrink",
-					"parent": "item1",
-					"rowNo": 2,
-					"colNo": 3,
-					"lastRowIndex": 1,
-					"listRowIndex": []
-				}
-			]
-		}
-	},
-	"pos-menus": {
-		"success": true,
-		"payload": {
-			"avsawdw": {
-				"posMenuId": "avsawdw",
-				"name": "POS Menu 1"
-			},
-			"dhgewd2": {
-				"posMenuId": "dhgewd2",
-				"name": "POS Menu 2"
-			}
-		}
-	},
-	"reasons": [{
-		"page": 1,
-		"id": 1,
-		"dataPerPage": 3,
-		"totalData": 7,
-		"totalPage": 3,
-		"success": true,
-		"payload": {
-			"n2po31e": {
-				"reasonId": "n2po31e",
-				"type": "Extrashoot",
-				"reason": "Gula",
-				"staff": "Ikhsan",
-				"created_dt": "2020-08-13 19:00:00"
-			},
-			"bnv231e": {
-				"reasonId": "bnv231e",
-				"type": "Extrashoot",
-				"reason": "Kopi",
-				"staff": "Jihan",
-				"created_dt": "2020-08-13 19:00:00"
-			},
-			"vdfobfw": {
-				"reasonId": "vdfobfw",
-				"type": "Extrashoot",
-				"reason": "Teh",
-				"staff": "Andrew",
-				"created_dt": "2020-08-13 19:00:00"
-			}
-		}
-	}],
-	"print-groups": [{
-		"page": 1,
-		"id": 1,
-		"dataPerPage": 3,
-		"totalData": 7,
-		"totalPage": 3,
-		"success": true,
-		"payload": {
-			"n2po31e": {
-				"printGroupId": "n2po31e",
-				"groupName": "Ikhsan",
-				"created_dt": "2020-08-13 19:00:00"
-			},
-			"bnv231e": {
-				"printGroupId": "bnv231e",
-				"groupName": "Jihan",
-				"created_dt": "2020-08-13 19:00:00"
-			},
-			"vdfobfw": {
-				"printGroupId": "vdfobfw",
-				"groupName": "Andrew",
-				"created_dt": "2020-08-13 19:00:00"
-			}
-		}
-	}]
+  "app-settings":{
+    "success":true,
+    "payload":{
+      "avsawdw":{
+        "appSettingId":"avsawdw",
+        "title":"Setting 1",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "isActive":false
+      },
+      "dhgewd2":{
+        "appSettingId":"dhgewd2",
+        "title":"Setting 2",
+        "description":"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident",
+        "isActive":true
+      }
+    }
+  },
+  "pos-menu":{
+    "success":true,
+    "payload":{
+      "sections":[
+        {
+          "posMenuSectionId":"sectionBurger",
+	  "posMenuId" : "avsawdw",
+          "listRowIndex":[1],
+          "lastRowIndex":2,
+          "type":"group"
+        },
+        {
+          "posMenuSectionId":"sectionDrink",
+	  "posMenuId" : "dhgewd2",
+          "listRowIndex":[1,2],
+          "lastRowIndex":3,
+          "type":"product"
+        }
+      ],
+      "items":[
+        {
+          "posMenuItemId":"itemBurger1",
+          "posMenuSectionId":"sectionBurger",
+          "parent":null,
+          "rowNo":1,
+          "colNo":1,
+          "lastRowIndex":1,
+          "listRowIndex":[
+            
+          ]
+        },
+        {
+          "posMenuItemId":"item1",
+          "posMenuSectionId":"sectionDrink",
+          "parent":null,
+          "rowNo":1,
+          "colNo":1,
+          "lastRowIndex":2,
+          "listRowIndex":[
+            
+          ]
+        },
+        {
+          "posMenuItemId":"item2",
+          "posMenuSectionId":"sectionDrink",
+          "parent":null,
+          "rowNo":2,
+          "colNo":3,
+          "lastRowIndex":1,
+          "listRowIndex":[
+            
+          ]
+        },
+        {
+          "posMenuItemId":"item11",
+          "posMenuSectionId":"sectionDrink",
+          "parent":"item1",
+          "rowNo":1,
+          "colNo":3,
+          "lastRowIndex":1,
+          "listRowIndex":[
+            
+          ]
+        },
+        {
+          "posMenuItemId":"item12",
+          "posMenuSectionId":"sectionDrink",
+          "parent":"item1",
+          "rowNo":2,
+          "colNo":3,
+          "lastRowIndex":1,
+          "listRowIndex":[
+            
+          ]
+        }
+      ]
+    }
+  },
+  "pos-menus":{
+    "success":true,
+    "payload":{
+      "avsawdw":{
+        "posMenuId":"avsawdw",
+        "name":"POS Menu 1"
+      },
+      "dhgewd2":{
+        "posMenuId":"dhgewd2",
+        "name":"POS Menu 2"
+      }
+    }
+  },
+  "reasons":[
+    {
+      "page":1,
+      "id":1,
+      "dataPerPage":3,
+      "totalData":7,
+      "totalPage":3,
+      "success":true,
+      "payload":{
+        "n2po31e":{
+          "reasonId":"n2po31e",
+          "type":"Extrashoot",
+          "reason":"Gula",
+          "staff":"Ikhsan",
+          "created_dt":"2020-08-13 19:00:00"
+        },
+        "bnv231e":{
+          "reasonId":"bnv231e",
+          "type":"Extrashoot",
+          "reason":"Kopi",
+          "staff":"Jihan",
+          "created_dt":"2020-08-13 19:00:00"
+        },
+        "vdfobfw":{
+          "reasonId":"vdfobfw",
+          "type":"Extrashoot",
+          "reason":"Teh",
+          "staff":"Andrew",
+          "created_dt":"2020-08-13 19:00:00"
+        }
+      }
+    }
+  ],
+  "print-groups":[
+    {
+      "page":1,
+      "id":1,
+      "dataPerPage":3,
+      "totalData":7,
+      "totalPage":3,
+      "success":true,
+      "payload":{
+        "n2po31e":{
+          "printGroupId":"n2po31e",
+          "groupName":"Ikhsan",
+          "created_dt":"2020-08-13 19:00:00"
+        },
+        "bnv231e":{
+          "printGroupId":"bnv231e",
+          "groupName":"Jihan",
+          "created_dt":"2020-08-13 19:00:00"
+        },
+        "vdfobfw":{
+          "printGroupId":"vdfobfw",
+          "groupName":"Andrew",
+          "created_dt":"2020-08-13 19:00:00"
+        }
+      }
+    }
+  ]
 }
