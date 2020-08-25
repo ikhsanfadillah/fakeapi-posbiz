@@ -39,7 +39,7 @@
         {
           "posMenuItemId":"itemBurger1",
           "posMenuSectionId":"sectionBurger",
-          "parent":null,
+          "parentItemId":null,
           "rowNo":1,
           "colNo":1,
           "lastRowIndex":1,
@@ -50,7 +50,7 @@
         {
           "posMenuItemId":"item1",
           "posMenuSectionId":"sectionDrink",
-          "parent":null,
+          "parentItemId":null,
           "rowNo":1,
           "colNo":1,
           "lastRowIndex":2,
@@ -61,7 +61,7 @@
         {
           "posMenuItemId":"item2",
           "posMenuSectionId":"sectionDrink",
-          "parent":null,
+          "parentItemId":null,
           "rowNo":2,
           "colNo":3,
           "lastRowIndex":1,
@@ -72,7 +72,7 @@
         {
           "posMenuItemId":"item11",
           "posMenuSectionId":"sectionDrink",
-          "parent":"item1",
+          "parentItemId":"item1",
           "rowNo":1,
           "colNo":3,
           "lastRowIndex":1,
@@ -83,7 +83,7 @@
         {
           "posMenuItemId":"item12",
           "posMenuSectionId":"sectionDrink",
-          "parent":"item1",
+          "parentItemId":"item1",
           "rowNo":2,
           "colNo":3,
           "lastRowIndex":1,
