@@ -22,14 +22,14 @@
       "sections": {
         "sectionBurger": {
           "sectionId": "sectionBurger",
-          "rowIndexes" : [1],
-          "rowIdxInc": 2,
+          "listRowIndex" : [1],
+          "lastRowIndex": 2,
           "type": "group"
         },
         "sectionDrink": {
           "sectionId": "sectionDrink",
-          "rowIndexes" : [1,2],
-          "rowIdxInc": 3,
+          "listRowIndex" : [1,2],
+          "lastRowIndex": 3,
           "type": "product"
         }
       },
@@ -38,9 +38,10 @@
           "itemId": "itemBurger1",
           "sectionId": "sectionBurger",
           "parent": null,
-          "row": 1,
-          "column": 1,
-          "rowIdx": 1
+          "row_no": 1,
+          "column_no": 1,
+          "lastRowIndex": 1,
+          "listRowIndex": []
         },
         "item1": {
           "itemId": "item1",
@@ -48,7 +49,8 @@
           "parent": null,
           "row": 1,
           "column": 1,
-          "rowIdx": 1
+          "lastRowIndex": 2,
+          "listRowIndex": []
         },
         "item2": {
           "itemId": "item2",
@@ -56,7 +58,8 @@
           "parent": null,
           "row": 2,
           "column": 3,
-          "rowIdx": 1
+          "lastRowIndex": 1,
+          "listRowIndex": []
         },
         "item11": {
           "itemId": "item11",
@@ -64,7 +67,8 @@
           "parent": "item1",
           "row": 1,
           "column": 3,
-          "rowIdx": 1
+          "lastRowIndex": 1,
+          "listRowIndex": []
         },
         "item12": {
           "itemId": "item12",
@@ -72,7 +76,8 @@
           "parent": "item1",
           "row": 2,
           "column": 3,
-          "rowIdx": 1
+          "lastRowIndex": 1,
+          "listRowIndex": []
         }
       }
     }
