@@ -19,63 +19,63 @@
   "pos-menu": {
     "success": true,
     "payload": {
-      "sections": {
-        "sectionBurger": {
-          "sectionId": "sectionBurger",
+      "sections": [
+        {
+          "posMenuSectionId": "sectionBurger",
           "listRowIndex" : [1],
           "lastRowIndex": 2,
           "type": "group"
         },
-        "sectionDrink": {
-          "sectionId": "sectionDrink",
+        {
+          "posMenuSectionId": "sectionDrink",
           "listRowIndex" : [1,2],
           "lastRowIndex": 3,
           "type": "product"
         }
-      },
-      "items": {
-        "itemBurger1": {
-          "itemId": "itemBurger1",
-          "sectionId": "sectionBurger",
+      ],
+      "items": [
+        {
+          "posMenuItemId": "itemBurger1",
+          "posMenuSectionId": "sectionBurger",
           "parent": null,
-          "row_no": 1,
-          "column_no": 1,
+          "rowNo": 1,
+          "colNo": 1,
           "lastRowIndex": 1,
           "listRowIndex": []
         },
-        "item1": {
-          "itemId": "item1",
-          "sectionId": "sectionDrink",
+        {
+          "posMenuItemId": "item1",
+          "posMenuSectionId": "sectionDrink",
           "parent": null,
-          "row": 1,
-          "column": 1,
+          "rowNo": 1,
+          "colNo": 1,
           "lastRowIndex": 2,
           "listRowIndex": []
         },
-        "item2": {
-          "itemId": "item2",
-          "sectionId": "sectionDrink",
+        {
+          "posMenuItemId": "item2",
+          "posMenuSectionId": "sectionDrink",
           "parent": null,
-          "row": 2,
-          "column": 3,
+          "rowNo": 2,
+          "colNo": 3,
           "lastRowIndex": 1,
           "listRowIndex": []
         },
-        "item11": {
-          "itemId": "item11",
-          "sectionId": "sectionDrink",
+        {
+          "posMenuItemId": "item11",
+          "posMenuSectionId": "sectionDrink",
           "parent": "item1",
-          "row": 1,
-          "column": 3,
+          "rowNo": 1,
+          "colNo": 3,
           "lastRowIndex": 1,
           "listRowIndex": []
         },
-        "item12": {
-          "itemId": "item12",
-          "sectionId": "sectionDrink",
+        {
+          "posMenuItemId": "item12",
+          "posMenuSectionId": "sectionDrink",
           "parent": "item1",
-          "row": 2,
-          "column": 3,
+          "rowNo": 2,
+          "colNo": 3,
           "lastRowIndex": 1,
           "listRowIndex": []
         }
