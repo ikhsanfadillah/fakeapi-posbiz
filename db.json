@@ -42,7 +42,7 @@
           "posMenuItemId":1,
           "posMenuSectionId":"sectionBurger",
           "parentItemId":null,
-          "type":"group"
+          "type":"group",
           "gridIndex":[
             [null,4,null,5,null]
           ]
@@ -58,21 +58,21 @@
           "posMenuItemId":3,
           "posMenuSectionId":"sectionDrink",
           "parentItemId":null,
-          "type":"group"
+          "type":"group",
           "gridIndex":[]
         },
         {
           "posMenuItemId":4,
           "posMenuSectionId":"sectionDrink",
           "parentItemId":"1",
-          "type":"product"
+          "type":"product",
           "gridIndex":[]
         },
         {
           "posMenuItemId":5,
           "posMenuSectionId":"sectionDrink",
           "parentItemId":"1",
-          "type":"product"
+          "type":"product",
           "gridIndex":[]
         }
       ]
