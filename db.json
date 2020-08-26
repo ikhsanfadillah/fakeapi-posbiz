@@ -23,73 +23,57 @@
         {
           "posMenuSectionId":"sectionBurger",
 	  "posMenuId" : "avsawdw",
-          "listRowIndex":[1],
-          "lastRowIndex":2,
+          "gridIndex":[
+            [null,1,null,null,null]
+          ],
           "type":"group"
         },
         {
           "posMenuSectionId":"sectionDrink",
-	  "posMenuId" : "dhgewd2",
-          "listRowIndex":[1,2],
-          "lastRowIndex":3,
+	        "posMenuId" : "dhgewd2",
+          "gridIndex":[
+            [2,3,null,null,null]
+          ],
           "type":"product"
         }
       ],
       "items":[
         {
-          "posMenuItemId":"itemBurger1",
+          "posMenuItemId":1,
           "posMenuSectionId":"sectionBurger",
           "parentItemId":null,
-          "rowNo":1,
-          "colNo":1,
-          "lastRowIndex":1,
-          "listRowIndex":[
-            
+          "type":"group"
+          "gridIndex":[
+            [null,4,null,5,null]
           ]
         },
         {
-          "posMenuItemId":"item1",
+          "posMenuItemId":2",
           "posMenuSectionId":"sectionDrink",
           "parentItemId":null,
-          "rowNo":1,
-          "colNo":1,
-          "lastRowIndex":2,
-          "listRowIndex":[
-            
-          ]
+          "type":"group"
+          "gridIndex":[]
         },
         {
-          "posMenuItemId":"item2",
+          "posMenuItemId":3,
           "posMenuSectionId":"sectionDrink",
           "parentItemId":null,
-          "rowNo":2,
-          "colNo":3,
-          "lastRowIndex":1,
-          "listRowIndex":[
-            
-          ]
+          "type":"group"
+          "gridIndex":[]
         },
         {
-          "posMenuItemId":"item11",
+          "posMenuItemId":4,
           "posMenuSectionId":"sectionDrink",
-          "parentItemId":"item1",
-          "rowNo":1,
-          "colNo":3,
-          "lastRowIndex":1,
-          "listRowIndex":[
-            
-          ]
+          "parentItemId":"1",
+          "type":"product"
+          "gridIndex":[]
         },
         {
-          "posMenuItemId":"item12",
+          "posMenuItemId":5,
           "posMenuSectionId":"sectionDrink",
-          "parentItemId":"item1",
-          "rowNo":2,
-          "colNo":3,
-          "lastRowIndex":1,
-          "listRowIndex":[
-            
-          ]
+          "parentItemId":"1",
+          "type":"product"
+          "gridIndex":[]
         }
       ]
     }
