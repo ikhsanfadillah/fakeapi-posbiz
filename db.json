@@ -24,7 +24,8 @@
           "posMenuSectionId":"sectionBurger",
 	  "posMenuId" : "avsawdw",
           "gridIndex":[
-            [null,1,null,null,null]
+            [null,1,null,null,null],
+            [null,6,null,null,null]
           ],
           "type":"group"
         },
@@ -51,14 +52,14 @@
           "posMenuItemId":2,
           "posMenuSectionId":"sectionDrink",
           "parentItemId":null,
-          "type":"group",
+          "type":"product",
           "gridIndex":[]
         },
         {
           "posMenuItemId":3,
           "posMenuSectionId":"sectionDrink",
           "parentItemId":null,
-          "type":"group",
+          "type":"product",
           "gridIndex":[]
         },
         {
@@ -71,6 +72,13 @@
         {
           "posMenuItemId":5,
           "posMenuSectionId":"sectionDrink",
+          "parentItemId":"1",
+          "type":"product",
+          "gridIndex":[]
+        }
+        {
+          "posMenuItemId":6,
+          "posMenuSectionId":"sectionBurger",
           "parentItemId":"1",
           "type":"product",
           "gridIndex":[]
