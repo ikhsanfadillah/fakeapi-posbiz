@@ -1,6 +1,7 @@
 {
   "app-settings":{
     "success":true,
+    "message":"berhasil",
     "payload":{
       "avsawdw":{
         "appSettingId":"avsawdw",
