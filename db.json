@@ -26,8 +26,8 @@
 	  "posMenuId" : "avsawdw",
           "label":"Section Burger",
           "gridIndex":[
-            [null,1,null,null,null],
-            [null,6,null,null,null]
+            [0,1,0,0,0],
+            [0,6,0,0,0]
           ],
           "type":"group"
         },
@@ -36,7 +36,7 @@
 	  "posMenuId" : "dhgewd2",
           "label":"Section Drink",
           "gridIndex":[
-            [2,3,null,null,null]
+            [2,3,0,0,0]
           ],
           "type":"product"
         }
@@ -45,28 +45,28 @@
         {
           "posMenuItemId":1,
           "posMenuSectionId":"sectionBurger",
-          "parentItemId":null,
+          "parentItemId":0,
           "label":"item 1",
           "type":"group",
           "gridIndex":[
-            [null,4,null,5,null]
+            [0,4,0,5,0],
           ]
         },
         {
           "posMenuItemId":2,
           "posMenuSectionId":"sectionDrink",
           "label":"item 2",
-          "parentItemId":null,
+          "parentItemId":0,
           "type":"product",
-          "gridIndex":[[null,null,null,null,null]]
+          "gridIndex":[[0,0,0,0,0]]
         },
         {
           "posMenuItemId":3,
           "posMenuSectionId":"sectionDrink",
-          "parentItemId":null,
+          "parentItemId":0,
           "label":"item ketiga",
           "type":"product",
-          "gridIndex":[[null,null,null,null,null]]
+          "gridIndex":[[0,0,0,0,0]]
         },
         {
           "posMenuItemId":4,
@@ -74,7 +74,7 @@
           "label":"item empat",
           "parentItemId":"1",
           "type":"product",
-          "gridIndex":[[null,null,null,null,null]]
+          "gridIndex":[[0,0,0,0,0]]
         },
         {
           "posMenuItemId":5,
@@ -82,15 +82,15 @@
           "label":"produk 5",
           "parentItemId":"1",
           "type":"product",
-          "gridIndex":[[null,null,null,null,null]]
+          "gridIndex":[[0,0,0,0,0]]
         },
         {
           "posMenuItemId":6,
           "posMenuSectionId":"sectionBurger",
           "label":"item enam",
-          "parentItemId":null,
+          "parentItemId":0,
           "type":"product",
-          "gridIndex":[[null,null,null,null,null]]
+          "gridIndex":[[0,0,0,0,0]]
         }
       ]
     }
