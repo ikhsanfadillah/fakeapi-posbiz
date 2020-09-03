@@ -88,7 +88,7 @@
           "posMenuItemId":6,
           "posMenuSectionId":"sectionBurger",
           "label":"item enam",
-          "parentItemId":"1",
+          "parentItemId":null,
           "type":"product",
           "gridIndex":[]
         }
