@@ -22,7 +22,7 @@
     "payload":{
       "sections":[
         {
-          "posMenuSectionId":"sectionBurger",
+          "posMenuSectionId":1,
 	  "posMenuId" : "avsawdw",
           "label":"Section Burger",
           "gridIndex":[
@@ -32,7 +32,7 @@
           "type":"group"
         },
         {
-          "posMenuSectionId":"sectionDrink",
+          "posMenuSectionId":3,
 	  "posMenuId" : "dhgewd2",
           "label":"Section Drink",
           "gridIndex":[
