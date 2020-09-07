@@ -44,7 +44,7 @@
       "items":[
         {
           "posMenuItemId":1,
-          "parentNodeId":1,
+          "nodeParentId":1,
           "parentSide":"section",
           "label":"item 1",
           "type":"group",
@@ -54,7 +54,7 @@
         },
         {
           "posMenuItemId": 2,
-          "parentNodeId": 3,
+          "nodeParentId": 3,
           "parentSide": "section",
           "label":"item 2",
           "type":"product",
@@ -62,7 +62,7 @@
         },
         {
           "posMenuItemId":3,
-          "parentNodeId": 3,
+          "nodeParentId": 3,
           "parentSide": "section",
           "label":"item ketiga",
           "type":"product",
@@ -70,7 +70,7 @@
         },
         {
           "posMenuItemId":4,
-          "parentNodeId": 1,
+          "nodeParentId": 1,
           "parentSide": "item",
           "label":"item empat",
           "type":"product",
@@ -78,7 +78,7 @@
         },
         {
           "posMenuItemId":5,
-          "parentNodeId": 1,
+          "nodeParentId": 1,
           "parentSide": "item",
           "label":"produk 5",
           "type":"product",
@@ -86,7 +86,7 @@
         },
         {
           "posMenuItemId":6,
-          "parentNodeId": 1,
+          "nodeParentId": 1,
           "parentSide": "section",
           "label":"item enam",
           "type":"product",
