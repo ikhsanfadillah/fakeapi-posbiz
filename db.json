@@ -44,8 +44,8 @@
       "items":[
         {
           "posMenuItemId":1,
-          "posMenuSectionId":1,
-          "parentItemId":0,
+          "parentNodeId":1,
+          "parentSide":"section",
           "label":"item 1",
           "type":"group",
           "gridIndex":[
@@ -53,42 +53,42 @@
           ]
         },
         {
-          "posMenuItemId":2,
-          "posMenuSectionId":3,
+          "posMenuItemId": 2,
+          "parentNodeId": 3,
+          "parentSide": "section",
           "label":"item 2",
-          "parentItemId":0,
           "type":"product",
           "gridIndex":[[0,0,0,0,0]]
         },
         {
           "posMenuItemId":3,
-          "posMenuSectionId":3,
-          "parentItemId":0,
+          "parentNodeId": 3,
+          "parentSide": "section",
           "label":"item ketiga",
           "type":"product",
           "gridIndex":[[0,0,0,0,0]]
         },
         {
           "posMenuItemId":4,
-          "posMenuSectionId":3,
+          "parentNodeId": 1,
+          "parentSide": "item",
           "label":"item empat",
-          "parentItemId":"1",
           "type":"product",
           "gridIndex":[[0,0,0,0,0]]
         },
         {
           "posMenuItemId":5,
-          "posMenuSectionId":3,
+          "parentNodeId": 1,
+          "parentSide": "item",
           "label":"produk 5",
-          "parentItemId":"1",
           "type":"product",
           "gridIndex":[[0,0,0,0,0]]
         },
         {
           "posMenuItemId":6,
-          "posMenuSectionId":1,
+          "parentNodeId": 1,
+          "parentSide": "section",
           "label":"item enam",
-          "parentItemId":0,
           "type":"product",
           "gridIndex":[[0,0,0,0,0]]
         }
