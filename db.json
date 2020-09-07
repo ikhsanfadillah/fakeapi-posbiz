@@ -44,7 +44,7 @@
       "items":[
         {
           "posMenuItemId":1,
-          "posMenuSectionId":"sectionBurger",
+          "posMenuSectionId":3,
           "parentItemId":0,
           "label":"item 1",
           "type":"group",
@@ -54,7 +54,7 @@
         },
         {
           "posMenuItemId":2,
-          "posMenuSectionId":"sectionDrink",
+          "posMenuSectionId":3,
           "label":"item 2",
           "parentItemId":0,
           "type":"product",
@@ -62,7 +62,7 @@
         },
         {
           "posMenuItemId":3,
-          "posMenuSectionId":"sectionDrink",
+          "posMenuSectionId":3,
           "parentItemId":0,
           "label":"item ketiga",
           "type":"product",
@@ -70,7 +70,7 @@
         },
         {
           "posMenuItemId":4,
-          "posMenuSectionId":"sectionDrink",
+          "posMenuSectionId":3,
           "label":"item empat",
           "parentItemId":"1",
           "type":"product",
@@ -78,7 +78,7 @@
         },
         {
           "posMenuItemId":5,
-          "posMenuSectionId":"sectionDrink",
+          "posMenuSectionId":3,
           "label":"produk 5",
           "parentItemId":"1",
           "type":"product",
@@ -86,7 +86,7 @@
         },
         {
           "posMenuItemId":6,
-          "posMenuSectionId":"sectionBurger",
+          "posMenuSectionId":1,
           "label":"item enam",
           "parentItemId":0,
           "type":"product",
