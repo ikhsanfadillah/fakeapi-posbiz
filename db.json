@@ -44,7 +44,7 @@
       "items":[
         {
           "posMenuItemId":1,
-          "posMenuSectionId":3,
+          "posMenuSectionId":1,
           "parentItemId":0,
           "label":"item 1",
           "type":"group",
